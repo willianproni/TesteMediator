@@ -15,7 +15,7 @@ namespace RefactoringGuru.DesignPatterns.Mediator.Conceptual
     class ConcreteMediator : IMediator
     {
         private Component1 Component1;
-        '
+        
         private Component2 Component2;
 
         public AdicionaPet AdicionaPet { get; }
