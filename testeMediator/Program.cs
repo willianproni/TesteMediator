@@ -15,7 +15,7 @@ namespace RefactoringGuru.DesignPatterns.Mediator.Conceptual
     class ConcreteMediator : IMediator
     {
         private Component1 Component1;
-        '
+        
         private Component2 Component2;
 
         public AdicionaPet AdicionaPet { get; }
@@ -106,7 +106,7 @@ namespace RefactoringGuru.DesignPatterns.Mediator.Conceptual
             string nomedog = Console.ReadLine();
             Console.WriteLine("\n\t\tCachorro Adicionado!!");
             Console.ReadKey();
-            Mediator.Notificar(this, "B");
+            
         }
     }
 
@@ -126,7 +126,6 @@ namespace RefactoringGuru.DesignPatterns.Mediator.Conceptual
                 Console.WriteLine("\n\t\tPista Ocupada");
             }
             Console.ReadKey();
-            Mediator.Notificar(this, "B");
         }
     }
 
